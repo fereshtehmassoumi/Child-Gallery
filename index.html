@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css/style-child.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet"> </head>
+    <title>Baby Gallery</title>
+<body>
+    <header>
+        <div class="container">
+        <a><img src="images/png-child.jpg"></a>
+        <div class="head">  
+            <h1>*Star Gallery*</h1>
+            <h2>Record your best childhood memorie</h2>
+            <a>Appointment</a>
+            <a>Register</a>
+        </div>
+       
+        
+        <nav id="sidenav">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About us</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Archive</a></li>
+
+
+            </ul>
+
+        </nav>
+        <div class="imag" id="imag">
+            <img src="images/hammenue-child.jpg" id="menu">
+        </div>
+       </div>
+    </header>
+<!--section feature-->
+<section id="feature">
+    <div class="title_feature">
+        <h1>Features</h1>
+        <p>Why you choose us</p>
+    </div>    
+    <div class="feature_main">
+        <div class="feature_left">
+        <h1 class="gradient_text">Our methodes</h1>
+        <p>Very friendly and competent advice!Kindly behavior with your child, choose the best model by parents and our adviser. Wonderful and variety decoration.colorful accessories and toy.</p>
+        </div>
+        <div class="feature_right">
+            <img src="images/16-child.jpg">
+        </div>
+    </div>
+</section>
+<section id="services">
+    <div class="title_feature">
+        <h2>Services</h2>
+        <p>Album sample</p>
+    </div> 
+<div class="sample_box">
+    <div class="sample">
+    <h1>Family</h1>
+    <img src="images/ceremony-child.jpg">
+    </div>
+    <div class="sample">
+        <h1>Baby</h1>
+        <img src="images/11-child.jpg">
+    </div>
+    <div class="sample">
+        <h1>Garden</h1>
+        <img src="images/1-child.jpg">
+    </div>
+    <div class="sample">
+        <h1>Ceremony</h1>
+        <img src="images/01-child.jpg">
+    </div>
+</div>
+  
+</section>
+
+
+
+
+    <script>
+        var imag=document.getElementById("imag")
+        var menu=document.getElementById("menu")
+        var sidenav=document.getElementById("sidenav")
+        sidenav.style.right="-180px"
+  imag.onclick=function(){
+      if(sidenav.style.right=="-180px"){
+          sidenav.style.right="0"
+      }
+      else{
+          sidenav.style.right="-180px"
+      }
+  }
+    </script>
+    
+</body>
+</html>
